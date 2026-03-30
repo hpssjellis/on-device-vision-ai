@@ -6,7 +6,7 @@ arxIV paper at
 
 Copy of paper [main.pdf](main.pdf)
 
-Seeedstudio $14.90 USD pre-soldered headers [xiao esp32s3 sense](https://www.seeedstudio.com/Seeed-Studio-XIAO-ESP32S3-Sense-Pre-Soldered-p-6335.html) or $22-38.90 USD [xiao ML kit](https://www.seeedstudio.com/The-XIAOML-Kit.html) 
+Seeedstudio $14.90 USD pre-soldered headers [xiao esp32s3 sense](https://www.seeedstudio.com/Seeed-Studio-XIAO-ESP32S3-Sense-Pre-Soldered-p-6335.html) or $22-38.90 USD [xiao ML kit](https://www.seeedstudio.com/The-XIAOML-Kit.html) (has IMU and 2 color OLED plus esp32s3 sense)
 
 arduino style single file code at [firmware.ino](firmware.ino)
 
