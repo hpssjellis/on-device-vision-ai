@@ -1,0 +1,9 @@
+cff-version: 1.2.0
+title: "On-Device Vision Training, Deployment, and Inference on a Thumb-Sized Microcontroller"
+authors:
+  - family-names: Ellis
+    given-names: Jeremy
+affiliation: webmcu-ai
+version: 1.0.0
+date-released: 2026-04-01
+license: MIT
