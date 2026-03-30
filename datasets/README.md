@@ -11,6 +11,8 @@ String myClassLabels[NUM_CLASSES] = {"0Blank", "1Circle"};
 
 ### Dataset B Testing, The main dataset used in the paper. About 39 images per class
 
+Note: The header file has a trained myWeights.bin and myWeights.h files to train from or you can delete those and start from scratch.
+
 ```
 #define NUM_CLASSES 3
 String myClassLabels[NUM_CLASSES] = {"0Blank", "1Cup", "2Pen"};
