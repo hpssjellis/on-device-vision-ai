@@ -9,7 +9,7 @@ String myClassLabels[NUM_CLASSES] = {"0Blank", "1Circle"};
 ```
 
 
-## Dataset B Testing, The main dataset used in the paper. About 30 images per class
+## Dataset B Testing, The main dataset used in the paper. About 39 images per class
 
 ```
 #define NUM_CLASSES 3
