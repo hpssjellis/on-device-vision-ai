@@ -14,4 +14,6 @@ arduino style single file code at [firmware.ino](firmware.ino)
 
 latex files to reproduce paper at [latex](latex)
 
+Citation at [CITATION.cff](CITATION.cff)
+
 Step to compile in the paper or see below
