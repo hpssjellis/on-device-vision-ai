@@ -23,9 +23,9 @@ Step to compile in the paper or see below
 
 
 
-```
 
-9 Deployment Workflow
+9 Deployment Workflow Steps from the paper
+
 9.1 Arduino IDE
 1. Install the U8g2 library via the Arduino Library Manager.
 2. Open the Arduino IDE (tested with version 2.3.5); select the Seeed Studio XIAO
@@ -44,6 +44,8 @@ USE
 BAKED
 WEIGHTS for SD-free deployment.
 11. Run Infer for real-time classification at 6.3 FPS.
+
+    
 9.2 PlatformIO
 lib_deps = olikraus/U8g2 @ ^2.35.30
 build_flags =-DBOARD_HAS_PSRAM-DARDUINO_USB_CDC_ON_BOOT=1
@@ -54,4 +56,4 @@ board_build.flash_size
 = 8MB
 Listing 10: platformio.ini configuration
 
-```
+
