@@ -2,7 +2,7 @@
 Complete Seeedstudio xiao ml kit esp32s3-sense on device machine learning pipeline
 
 
-arxIV paper at
+arxIV paper at [link when ready]()
 
 Copy of paper [main.pdf](main.pdf)
 
