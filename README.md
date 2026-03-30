@@ -17,3 +17,41 @@ latex files to reproduce paper at [latex](latex)
 Citation at [CITATION.cff](CITATION.cff)
 
 Step to compile in the paper or see below
+
+
+
+
+
+
+```
+
+9 Deployment Workflow
+9.1 Arduino IDE
+1. Install the U8g2 library via the Arduino Library Manager.
+2. Open the Arduino IDE (tested with version 2.3.5); select the Seeed Studio XIAO
+ESP32-S3 board target.
+3. Under Tools → PSRAM, select OPI PSRAM.
+4. Insert a FAT32 microSD card.
+5. Compile and upload; place the board in bootloader mode if required (hold Boot while
+connecting USB).
+6. Open the serial monitor at 115200 baud.
+7. Navigate with tap / long-press (3+ taps) on Pin A0, or use t (next) / L (select) in the
+serial monitor.
+8. Capture images for each class (recommended: ≥50 per class).
+9. Run Train; monitor loss and accuracy on OLED or serial monitor.
+10. Optionally copy /header/myWeights.h to the sketch folder and uncomment #define
+USE
+BAKED
+WEIGHTS for SD-free deployment.
+11. Run Infer for real-time classification at 6.3 FPS.
+9.2 PlatformIO
+lib_deps = olikraus/U8g2 @ ^2.35.30
+build_flags =-DBOARD_HAS_PSRAM-DARDUINO_USB_CDC_ON_BOOT=1
+board_build.arduino.memory_type = qio_opi
+board_build.flash_mode
+= qio
+board_build.flash_size
+= 8MB
+Listing 10: platformio.ini configuration
+
+```
