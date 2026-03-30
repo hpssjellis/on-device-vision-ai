@@ -6,7 +6,7 @@ arxIV paper at
 
 Copy of paper [main.pdf](main.pdf)
 
-Seeedstudio xiao esp32s3 ssense or xiao ML kit arduino code at [firmware.ino]firmware.ino()
+Seeedstudio xiao esp32s3 ssense or xiao ML kit arduino code at [firmware.ino](firmware.ino)
 
 3 datasets at [datasets](datasets)
 
