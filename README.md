@@ -10,6 +10,6 @@ Seeedstudio xiao esp32s3 ssense or xiao ML kit arduino code at [firmware.ino](fi
 
 3 datasets at [datasets](datasets)
 
-latex files to reproduce paper at [latex](latesx)
+latex files to reproduce paper at [latex](latex)
 
 Step to compile in the paper or see below
