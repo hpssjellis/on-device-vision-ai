@@ -6,7 +6,9 @@ arxIV paper at
 
 Copy of paper [main.pdf](main.pdf)
 
-Seeedstudio xiao esp32s3 ssense or xiao ML kit arduino code at [firmware.ino](firmware.ino)
+Seeedstudio $14.90 USD pre-soldered headers [xiao esp32s3 sense](https://www.seeedstudio.com/Seeed-Studio-XIAO-ESP32S3-Sense-Pre-Soldered-p-6335.html) or $22-38.90 USD [xiao ML kit](https://www.seeedstudio.com/The-XIAOML-Kit.html) 
+
+arduino style single file code at [firmware.ino](firmware.ino)
 
 3 datasets at [datasets](datasets)
 
