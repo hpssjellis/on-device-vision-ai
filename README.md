@@ -53,7 +53,9 @@ WEIGHTS for SD-free deployment.
 11. Run Infer for real-time classification at 6.3 FPS.
 
     
-9.2 PlatformIO
+9.2 PlatformIO    platformio.ini configuration
+
+```
 lib_deps = olikraus/U8g2 @ ^2.35.30
 build_flags =-DBOARD_HAS_PSRAM-DARDUINO_USB_CDC_ON_BOOT=1
 board_build.arduino.memory_type = qio_opi
@@ -61,6 +63,6 @@ board_build.flash_mode
 = qio
 board_build.flash_size
 = 8MB
-Listing 10: platformio.ini configuration
+```
 
 
