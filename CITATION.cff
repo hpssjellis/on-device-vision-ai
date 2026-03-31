@@ -1,9 +1,25 @@
 cff-version: 1.2.0
+message: "If you use this software or dataset, please cite it using the metadata below."
 title: "On-Device Vision Training, Deployment, and Inference on a Thumb-Sized Microcontroller"
 authors:
   - family-names: Ellis
     given-names: Jeremy
-affiliation: webmcu-ai
+    affiliation: "High School Robotics Educator, British Columbia, Canada"
+    orcid: "https://orcid.org/YOUR-ORCID-HERE"
 version: 1.0.0
 date-released: 2026-04-01
 license: MIT
+repository-code: "https://github.com/webmcu-ai/on-device-vision-ai"
+preferred-citation:
+  type: article
+  title: "On-Device Vision Training, Deployment, and Inference on a Thumb-Sized Microcontroller"
+  authors:
+    - family-names: Ellis
+      given-names: Jeremy
+      affiliation: "High School Robotics Educator, British Columbia, Canada"
+  year: 2026
+  month: 4
+  journal: "arXiv preprint"
+  doi: "10.48550/arXiv.2026.XXXXX"
+  url: "https://arxiv.org/abs/2026.XXXXX"
+  notes: "Replace XXXXX with your assigned arXiv identifier"
