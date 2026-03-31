@@ -15,7 +15,7 @@ String myClassLabels[NUM_CLASSES] = {"0Blank", "1Cup", "2Pen"};
 If you put both the images and header folderrs on your micro sd card training will resume from this point.
 If you bake in the weights.h file training will resume from the same point. If you delete the weights.bin file and do not use the myWeights.h file then training will start from scratch.
 
-
+```
 // optional Uncomment AFTER copying myWeights.h from SD to your sketch folder:
 // Priority order: SD weights > baked-in weights > random He-init
 //////////////////////////////////////IMPORTANT/////////////////////////////////////////////////
@@ -24,10 +24,19 @@ If you bake in the weights.h file training will resume from the same point. If y
 #ifdef USE_BAKED_WEIGHTS
   #include "myWeights.h"
 #endif
+```
+.
+
+
+.
+
+
+.
 
 
 
 ### Training log from the serial monitor
+This is the entire serial monitor output using my webSerial page at  https://hpssjellis.github.io/webserial-print/index.html  since the arduino IDE or putty.exe do not easilly allow serial file output with timestamps.
 
 ```
 --- Connected @ 115200 baud: 3/31/2026, 10:23:53 AM ---
