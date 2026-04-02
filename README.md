@@ -44,16 +44,17 @@ connecting USB).
 6. Open the serial monitor at 115200 baud.
 7. Navigate with tap / long-press (3+ taps) on Pin A0, or use t (next) / L (select) in the
 serial monitor.
-8. Capture images for each class (recommended: ≥50 per class).
+8. Capture images for each class (recommended: ≥50 per class, but to test it out a few images is fine).
 9. Run Train; monitor loss and accuracy on OLED or serial monitor.
-10. Optionally copy /header/myWeights.h to the sketch folder and uncomment #define
-USE
-BAKED
-WEIGHTS for SD-free deployment.
-11. Run Infer for real-time classification at 6.3 FPS.
+10. Optionally copy /header/myWeights.h to the sketch folder and uncomment (Still needs sd card, for on device extra training)
+```
+//#define USE_BAKED_WEIGHTS
+```
+11. Run Infer for real-time classification at ~6.3 FPS.
+12. The biggest issue is forgetting to insert the micro sd card or having a corrupted micro sd card.
 
     
-9.2 PlatformIO    platformio.ini configuration
+### PlatformIO    platformio.ini configuration
 
 ```
 
