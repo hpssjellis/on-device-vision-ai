@@ -1,0 +1,14 @@
+[env:seeed_xiao_esp32s3]
+platform = espressif32
+board = seeed_xiao_esp32s3
+framework = arduino
+
+; you need the U8g2 library declared
+lib_deps =  olikraus/U8g2 @ ^2.35.30
+; Overriding defaults to enable OPI PSRAM
+build_flags = 
+   -DBOARD_HAS_PSRAM
+   -DARDUINO_USB_CDC_ON_BOOT=1
+board_build.arduino.memory_type = qio_opi
+board_build.flash_mode = qio
+board_upload.flash_size = 8MB
