@@ -1,7 +1,9 @@
 # on-device-vision-ai
 Complete Seeedstudio xiao ml kit esp32s3-sense on device machine learning pipeline
 
+This is the paper 1 proof of concept.
 
+Paper 2 the webSerial connection is at [github.com/webmcu-ai/webmcu-vision-web](https://github.com/webmcu-ai/webmcu-vision-web)
 
 
 Copy of paper [main.pdf](main.pdf)
